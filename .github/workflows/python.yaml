@@ -20,6 +20,6 @@ jobs:
         uses: actions/checkout@v3
         run: mkdir -p /artifact/test
       - uses: actions/upload-artifact@v3
-         with:
-         name: my-artifact
-         path: run: mkdir -p /artifact/test/test.txt
+        with:
+        name: my-artifact
+        path: run: mkdir -p /artifact/test/test.txt
